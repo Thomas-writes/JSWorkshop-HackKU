@@ -1,3 +1,8 @@
+//this file won't run with nodejs because of the end
+//feel free to comment it out and tun if you want 
+/*
+These are for multi-line comments
+*/
 //let is block scoped
 let x = 5
 //var is function or globally scoped
