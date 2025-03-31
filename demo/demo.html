@@ -25,7 +25,7 @@
             //trim() removes whitespace
             let taskText = document.getElementById("taskInput").value.trim();
             //if the item is only whitespace or empty end the function 
-            if (taskText === "") {alert("Nothing was entered"); return;}
+            if (taskText == "") {alert("Nothing was entered"); return;}
             //add the task to the block-scoped task list
             tasks.push(taskText);
             //clear the input field
