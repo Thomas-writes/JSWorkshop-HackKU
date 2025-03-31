@@ -1,1 +1,1 @@
-This is for the JavaScript Workshop (HackKU2025)
+This is for the JavaScript Workshop (HackKU25)
