@@ -14,6 +14,17 @@
     <script> // js starts here
         // when the page is loaded get all tasks on the local storage
         //this returns either the array on the local storage or an empty array if there are no local storage items
+        /*
+        JSON.parse()
+        turns this:
+        '["task1", "task2", ...]'
+        into this
+        ["task1", "task2", ...]
+        */
+        /*
+        localStorage stores key value pairs
+        */
+
         let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
         //used to add a task to the list
@@ -59,6 +70,7 @@
 
         // Function to save tasks to localStorage
         function saveTasks() {
+            //turns the tasks list into a JSON string then sends that to the localStorage as a key-value pair
             localStorage.setItem('tasks', JSON.stringify(tasks));
         }
 
